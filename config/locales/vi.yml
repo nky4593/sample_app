@@ -1,0 +1,32 @@
+vi:
+  static_pages:
+    home:
+      title: "Trang chủ"
+      ti: "Ứng dụng mẫu"
+      para1: "Đây là trang chủ"
+      para2: "cho ứng dụng mẫu."
+      eng: "Tiếng Anh"
+      vie: "Tiếng Việt"
+    help:
+      he: "Trợ giúp"
+      ph1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      ph2: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+      ah1: "Phần trợ giúp của Rails Tutorial"
+      ah2: "Sách hướng dẫn Ruby on Rails"
+    about:
+      ab: "Giới thiệu"
+      pa1: ""
+      pa2: "là một"
+      pa3: "và"
+      pa4: "để dạy phát triển web với"
+      pa5: "Đây là ứng dụng mẫu để hướng dẫn"
+      ab1: "Hướng dẫn Ruby on Rails"
+      ab2: "sách"
+      ab3: "loạt screencast"
+    contact:
+      co : "Liên hệ"
+      pc1: "Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
+      ac1: "Trang liên hệ"
+  layouts:
+    application:
+      atitle: "Ứng dụng mẫu Ruby on Rails"

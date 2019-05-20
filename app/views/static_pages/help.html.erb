@@ -1,0 +1,12 @@
+<% provide :title, t(".he") %>
+<h1><%= t ".he" %></h1>
+<p>
+  <%= t ".ph1" %>
+  <a href="https://www.railstutorial.org/help"><%= t ".ah1" %></a>.
+  <%= t ".ph2" %>
+  <a href="https://www.railstutorial.org/book"><%= t ".ah2" %></a>.
+</p>
+<h2>
+  <%= link_to t("static_pages.home.eng"), locale: "en" %>
+  <%= link_to t("static_pages.home.vie"), locale: "vi" %>
+</h2>

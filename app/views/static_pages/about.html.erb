@@ -1,0 +1,15 @@
+<% provide :title, t( ".ab") %>
+<h1>About</h1>
+<p>
+  <%= t ".pa1" %> <a href="https://www.railstutorial.org/"><%= t ".ab1" %></a>
+  <%= t ".pa2" %>
+  <a href="https://www.railstutorial.org/book"><%= t ".ab2" %></a> <%= t ".pa3" %>
+  <a href="http://screencasts.railstutorial.org/"><%= t ".ab3" %></a>
+  <%= t ".pa4" %>
+  <a href="http://rubyonrails.org/">Ruby on Rails</a>.
+  <%= t ".pa5" %>
+</p>
+<h2>
+  <%= link_to t("static_pages.home.eng"), locale: "en" %>
+  <%= link_to t("static_pages.home.vie"), locale: "vi" %>
+</h2>
