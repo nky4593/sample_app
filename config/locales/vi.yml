@@ -1,12 +1,24 @@
 vi:
+  sa: "Ứng Dụng Mẫu"
+  home: "Trang chủ"
+  help: "Trợ giúp"
+  login: "Đăng nhập"
+  eng: "Tiếng Anh"
+  vie: "Tiếng Việt"
+  about: "Giới thiệu"
+  contact: "Liên hệ"
+  news: "Tin tức"
+  p1: ""
+  p2: "bởi"
+  a1: "Hướng dẫn Ruby on Rails"
   static_pages:
     home:
       title: "Trang chủ"
-      ti: "Ứng dụng mẫu"
-      para1: "Đây là trang chủ"
-      para2: "cho ứng dụng mẫu."
-      eng: "Tiếng Anh"
-      vie: "Tiếng Việt"
+      welcome: "Chào mừng đến với Ứng dụng mẫu"
+      phome1: "Đây là trang chủ của"
+      phome2: "ứng dụng mãu."
+      ahome1: "Hướng dẫn Ruby on Rails"
+      bhome1: "Đăng ký ngay!"
     help:
       he: "Trợ giúp"
       ph1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
@@ -30,3 +42,7 @@ vi:
   layouts:
     application:
       atitle: "Ứng dụng mẫu Ruby on Rails"
+  users:
+    new:
+      signup: "Đăng Ký"
+      pnew1: "Sắp ra mắt ..."
