@@ -1,11 +1,14 @@
 <% provide :title, t(".title") %>
-<h1><%= t ".ti" %></h1>
-<p>
-  <%= t ".para1" %>
-  <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-  <%= t ".para2" %>
-</p>
-<h2>
-  <%= link_to t("static_pages.home.eng"), locale: "en" %>
-  <%= link_to t("static_pages.home.vie"), locale: "vi" %>
-</h2>
+<div class="center jumbotron">
+  <h1><%= t(".welcome") %></h1>
+
+  <h2>
+    <%= t(".phome1") %>
+    <%= link_to t(".ahome1"), "https://www.railstutorial.org/" %>
+    <%= t(".phome2") %>
+  </h2>
+
+  <%= link_to t(".bhome1"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"),"http://rubyonrails.org/" %>

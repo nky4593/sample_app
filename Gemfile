@@ -54,5 +54,6 @@ group :development do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem "bootstrap-sass", "3.3.6"
 gem "rubocop", "~> 0.54.0", require: false
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

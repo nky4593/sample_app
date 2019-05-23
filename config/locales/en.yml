@@ -1,12 +1,24 @@
 en:
+  sa: Sample App
+  home: "Home"
+  help: "Help"
+  login: "Log in"
+  eng: "English"
+  vie: "Vietnamese"
+  about: "About"
+  contact: "Contact"
+  news: "News"
+  p1: "The"
+  p2: "by"
+  a1: "Ruby on Rails Tutorial"
   static_pages:
     home:
       title: "Home"
-      ti: "Sample App"
-      para1: "This is the home page for the"
-      para2: "sample application."
-      eng: "English"
-      vie: "Vietnamese"
+      welcome: "Welcome to the Sample App"
+      phome1: "This is the home page for the"
+      phome2: "sample application."
+      ahome1: "Ruby on Rails Tutorial"
+      bhome1: "Sign up now!"
     help:
       he: "Help"
       ph1: "Get help on the Ruby on Rails Tutorial at the"
@@ -30,3 +42,7 @@ en:
   layouts:
     application:
       atitle: "Ruby on Rails Sample App"
+  users:
+    new:
+      signup: "Sign Up"
+      pnew1: "In coming ..."
