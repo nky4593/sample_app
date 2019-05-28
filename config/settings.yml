@@ -1,0 +1,4 @@
+validation:
+  name_lenght: 50
+  mail_max_lenght: 255
+  pass_min_lenght: 6
