@@ -11,6 +11,7 @@ en:
   p1: "The"
   p2: "by"
   a1: "Ruby on Rails Tutorial"
+  notfound: "User not found"
   static_pages:
     home:
       title: "Home"
@@ -45,4 +46,23 @@ en:
   users:
     new:
       signup: "Sign Up"
-      pnew1: "In coming ..."
+      btn_create: "Create my account"
+  shared:
+    error_messages:
+      mess_error: "The form contains "
+      errors: "errors"
+  activerecord:
+    attributes:
+      user:
+        name: "Full Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password Confirmation"
+    errors:
+      format: "%{attribute} %{message}"
+      messages:
+        blank: "can't be blank"
+        invalid: "is invalid"
+        too_long: "is too long"
+        too_short: "is too short"
+        confirmation: "doesn't match %{attribute}"
