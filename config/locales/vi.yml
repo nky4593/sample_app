@@ -11,6 +11,7 @@ vi:
   p1: ""
   p2: "bởi"
   a1: "Hướng dẫn Ruby on Rails"
+  notfound: "Không tìm thấy User"
   static_pages:
     home:
       title: "Trang chủ"
@@ -45,4 +46,23 @@ vi:
   users:
     new:
       signup: "Đăng Ký"
-      pnew1: "Sắp ra mắt ..."
+      btn_create: "Tạo tài khoản"
+  shared:
+    error_messages:
+      mess_error: "Biểu mẫu chứa "
+      errors: "lỗi"
+  activerecord:
+    attributes:
+      user:
+        name: "Họ Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
+    errors:
+      format: "%{attribute} %{message}"
+      messages:
+        blank: "không được để trống"
+        invalid: "không hợp lệ"
+        too_long: "quá dài"
+        too_short: "quá ngắn"
+        confirmation: "không khớp với %{attribute}"
