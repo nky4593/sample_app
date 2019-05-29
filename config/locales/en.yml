@@ -5,6 +5,11 @@ en:
   login: "Log in"
   eng: "English"
   vie: "Vietnamese"
+  use: "Users"
+  account: "Account"
+  profile: "Profile"
+  setting: "Setting"
+  logout: "Log out"
   about: "About"
   contact: "Contact"
   news: "News"
@@ -12,6 +17,7 @@ en:
   p2: "by"
   a1: "Ruby on Rails Tutorial"
   notfound: "User not found"
+  loginfail: "Email or Password is invalid"
   static_pages:
     home:
       title: "Home"
@@ -43,6 +49,12 @@ en:
   layouts:
     application:
       atitle: "Ruby on Rails Sample App"
+  sessions:
+    new:
+      nuser: "New user?"
+      signupnow: "Sign up now!"
+      email: "Email"
+      password: "Password"
   users:
     new:
       signup: "Sign Up"
