@@ -5,6 +5,11 @@ vi:
   login: "Đăng nhập"
   eng: "Tiếng Anh"
   vie: "Tiếng Việt"
+  use: "Người dùng"
+  account: "Tài khoản"
+  profile: "Hồ sơ"
+  setting: "Cài đặt"
+  logout: "Đăng xuất"
   about: "Giới thiệu"
   contact: "Liên hệ"
   news: "Tin tức"
@@ -12,6 +17,7 @@ vi:
   p2: "bởi"
   a1: "Hướng dẫn Ruby on Rails"
   notfound: "Không tìm thấy User"
+  loginfail: "Email hoặc Mật khẩu không hợp lệ"
   static_pages:
     home:
       title: "Trang chủ"
@@ -43,6 +49,12 @@ vi:
   layouts:
     application:
       atitle: "Ứng dụng mẫu Ruby on Rails"
+  sessions:
+    new:
+      nuser: "Chưa có tài khoản?"
+      signupnow: "Đăng ký ngay!"
+      email: "Email"
+      password: "Mật khẩu"
   users:
     new:
       signup: "Đăng Ký"
