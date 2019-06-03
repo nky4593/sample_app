@@ -55,6 +55,7 @@ vi:
       signupnow: "Đăng ký ngay!"
       email: "Email"
       password: "Mật khẩu"
+      remember: "Nhớ tôi trên máy tính này"
   users:
     new:
       signup: "Đăng Ký"
