@@ -18,6 +18,9 @@ en:
   a1: "Ruby on Rails Tutorial"
   notfound: "User not found"
   loginfail: "Email or Password is invalid"
+  updated: "Profile updated"
+  update_fail: "Update failed"
+  plslogin: "Please log in!"
   static_pages:
     home:
       title: "Home"
@@ -60,6 +63,11 @@ en:
     new:
       signup: "Sign Up"
       btn_create: "Create my account"
+    edit:
+      edit_user: "Edit user"
+      btn_change: "Save changes"
+      change: "Change"
+      update_profile: "Update your profile"
   shared:
     error_messages:
       mess_error: "The form contains "

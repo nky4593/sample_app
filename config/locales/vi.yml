@@ -18,6 +18,9 @@ vi:
   a1: "Hướng dẫn Ruby on Rails"
   notfound: "Không tìm thấy User"
   loginfail: "Email hoặc Mật khẩu không hợp lệ"
+  updated: "Hồ sơ đã được cập nhật"
+  update_fail: "Cập nhật thất bại"
+  plslogin: "Yêu cầu đăng nhập!"
   static_pages:
     home:
       title: "Trang chủ"
@@ -60,6 +63,11 @@ vi:
     new:
       signup: "Đăng Ký"
       btn_create: "Tạo tài khoản"
+    edit:
+      edit_user: "Chỉnh sửa hồ sơ"
+      btn_change: "Lưu thay đổi"
+      change: "Thay đổi"
+      update_profile: "Cập nhật hồ sơ"
   shared:
     error_messages:
       mess_error: "Biểu mẫu chứa "
