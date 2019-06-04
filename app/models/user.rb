@@ -1,6 +1,7 @@
 class User < ApplicationRecord
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   attr_accessor :remember_token
+  has_many :microposts, dependent: :destroy
 
   validates :email, presence: true,
     length: {maximum: Settings.validation.mail_max_length},
@@ -30,6 +31,10 @@ class User < ApplicationRecord
 
   def current_user? user
     user == self
+  end
+
+  def feed
+    Micropost.where user_id: id
   end
 
   private

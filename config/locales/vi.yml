@@ -23,6 +23,12 @@ vi:
   plslogin: "Yêu cầu đăng nhập!"
   delete: "Người dùng đã bị xóa"
   del_fail: "Không thể xóa người dùng này"
+  micropost_create: "Đã tạo bài viết!"
+  micropost_fail: "Tạo bài viết thất bại!"
+  micropost_delete: "Đã xóa bài viết!"
+  micropost_delfail: "Xóa bài viết thất bại!"
+  errors_pic: "nên chọn file dung lượng nhỏ hơn 5Mb"
+  alert_size: "Kích thước tệp tối đa là 5MB. Hãy chọn tệp dung lượng nhỏ hơn."
   static_pages:
     home:
       title: "Trang chủ"
@@ -31,6 +37,7 @@ vi:
       phome2: "ứng dụng mãu."
       ahome1: "Hướng dẫn Ruby on Rails"
       bhome1: "Đăng ký ngay!"
+      micropost_feed: "Bài đăng mới"
     help:
       he: "Trợ giúp"
       ph1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
@@ -75,10 +82,24 @@ vi:
     user:
       del: "Xóa"
       sure: "Bạn chắc chứ?"
+    show:
+      microposts: "Bài đăng"
   shared:
     error_messages:
       mess_error: "Biểu mẫu chứa "
       errors: "lỗi"
+    micropost_form:
+      compose: "Soạn bài viết mới ..."
+      post: "Đăng"
+    user_info:
+      view_profile: "Xem hồ sơ của tôi"
+      post_count: "bài đăng"
+  microposts:
+    micropost:
+      del_post: "Xóa"
+      sure_post: "Bạn chắc chứ?"
+      posted: "Đã đăng"
+      ago: "trước."
   activerecord:
     attributes:
       user:
@@ -94,6 +115,24 @@ vi:
         too_long: "quá dài"
         too_short: "quá ngắn"
         confirmation: "không khớp với %{attribute}"
-  will_paginate:
-    previous_label: "&#8592; Trang trước"
-    next_label: "Trang kế &#8594;"
+  views:
+    pagination:
+      first: "&laquo; Đầu tiên"
+      last: "Cuối cùng &raquo;"
+      previous: "&lsaquo; Trang trước"
+      next: "Trang kế &rsaquo;"
+      truncate: "&hellip;"
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: "khoảng 1 giờ"
+        other: "khoảng %{count} giờ"
+      less_than_x_minutes:
+        one: "ít hơn 1 phút"
+        other: "ít hơn %{count} phút"
+      x_minutes:
+        one: "1 phút"
+        other: "%{count} phút"
+      x_days:
+        one: "1 ngày"
+        other: "%{count} ngày"

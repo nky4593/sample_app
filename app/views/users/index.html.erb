@@ -1,10 +1,10 @@
 <% provide :title, t(".all") %>
 <h1><%= t ".all" %></h1>
 
-<%= will_paginate @users %>
+<%= paginate @users, theme: "twitter-bootstrap-3" %>
 
 <ul class="users">
     <%= render @users %>
 </ul>
 
-<%= will_paginate @users %>
+<%= paginate @users, theme: "twitter-bootstrap-3" %>
