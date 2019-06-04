@@ -55,6 +55,7 @@ en:
       signupnow: "Sign up now!"
       email: "Email"
       password: "Password"
+      remember: "Remember me on this computer"
   users:
     new:
       signup: "Sign Up"
