@@ -32,5 +32,8 @@ gem "bootstrap-sass", "3.3.6"
 gem "config"
 gem "jquery-rails"
 
+gem "bootstrap-will_paginate", "1.0.0"
+gem "faker", "1.7.3"
 gem "rubocop", "~> 0.54.0", require: false
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "will_paginate", "3.1.7"

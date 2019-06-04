@@ -21,6 +21,8 @@ en:
   updated: "Profile updated"
   update_fail: "Update failed"
   plslogin: "Please log in!"
+  delete: "User deleted"
+  del_fail: "Cannot delete this user"
   static_pages:
     home:
       title: "Home"
@@ -68,6 +70,11 @@ en:
       btn_change: "Save changes"
       change: "Change"
       update_profile: "Update your profile"
+    index:
+      all: "All users"
+    user:
+      del: "Delete"
+      sure: "You sure?"
   shared:
     error_messages:
       mess_error: "The form contains "
@@ -87,3 +94,6 @@ en:
         too_long: "is too long"
         too_short: "is too short"
         confirmation: "doesn't match %{attribute}"
+  will_paginate:
+    previous_label: "&#8592; Previous"
+    next_label: "Next &#8594;"
