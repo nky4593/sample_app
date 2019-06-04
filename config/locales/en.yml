@@ -29,6 +29,8 @@ en:
   micropost_delfail: "Delete micropost failed!"
   errors_pic: "should be less than 5Mb"
   alert_size: "Maximum file size is 5MB. Please choose a smaller file."
+  following: "Following"
+  followers: "Followers"
   static_pages:
     home:
       title: "Home"
@@ -84,6 +86,13 @@ en:
       sure: "You sure?"
     show:
       microposts: "Microposts"
+    show_follow:
+      microposts: "Microposts:"
+      view_profile: "View my profile"
+    follow:
+      btn_follow: "Follow"
+    unfollow:
+      btn_unfollow: "Unfollow"
   shared:
     error_messages:
       mess_error: "The form contains "
@@ -94,6 +103,9 @@ en:
     user_info:
       view_profile: "View my profile"
       post_count: "microposts"
+    stats:
+      following: "following"
+      followers: "followers"
   microposts:
     micropost:
       del_post: "Delete"

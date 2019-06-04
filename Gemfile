@@ -32,10 +32,10 @@ gem "bootstrap-sass", "3.3.6"
 gem "config"
 gem "jquery-rails"
 
+gem "bootstrap-kaminari-views"
 gem "carrierwave", "1.2.2"
 gem "faker", "1.7.3"
+gem "kaminari"
 gem "mini_magick", "4.7.0"
 gem "rubocop", "~> 0.54.0", require: false
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem "kaminari"
-gem "bootstrap-kaminari-views"
