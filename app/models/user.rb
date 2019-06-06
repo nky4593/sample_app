@@ -6,28 +6,13 @@ class User < ApplicationRecord
     length: {maximum: Settings.validation.mail_max_length},
     format: {with: VALID_EMAIL_REGEX}, uniqueness: {case_sensitive: false}
   validates :password, presence: true,
-    length: {minimum: Settings.validation.pass_min_length}
+    length: {minimum: Settings.validation.pass_min_length}, allow_nil: true
   validates :name, presence: true,
     length: {maximum: Settings.validation.name_length}
 
   before_save :email_downcase
 
   has_secure_password
-
-  class << self
-    def digest string
-      if cost = ActiveModel::SecurePassword.min_cost
-        BCrypt::Engine::MIN_COST
-      else
-        BCrypt::Engine.cost
-      end
-      BCrypt::Password.create(string, cost: cost)
-    end
-
-    def new_token
-      SecureRandom.urlsafe_base64
-    end
-  end
 
   def remember
     self.remember_token = User.new_token
@@ -43,9 +28,28 @@ class User < ApplicationRecord
     update remember_digest: nil
   end
 
+  def current_user? user
+    user == self
+  end
+
   private
 
   def email_downcase
     self.email = email.downcase
+  end
+
+  class << self
+    def digest string
+      if cost = ActiveModel::SecurePassword.min_cost
+        BCrypt::Engine::MIN_COST
+      else
+        BCrypt::Engine.cost
+      end
+      BCrypt::Password.create(string, cost: cost)
+    end
+
+    def new_token
+      SecureRandom.urlsafe_base64
+    end
   end
 end
