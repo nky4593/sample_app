@@ -21,6 +21,8 @@ vi:
   updated: "Hồ sơ đã được cập nhật"
   update_fail: "Cập nhật thất bại"
   plslogin: "Yêu cầu đăng nhập!"
+  delete: "Người dùng đã bị xóa"
+  del_fail: "Không thể xóa người dùng này"
   static_pages:
     home:
       title: "Trang chủ"
@@ -68,6 +70,11 @@ vi:
       btn_change: "Lưu thay đổi"
       change: "Thay đổi"
       update_profile: "Cập nhật hồ sơ"
+    index:
+      all: "Tất cả người dùng"
+    user:
+      del: "Xóa"
+      sure: "Bạn chắc chứ?"
   shared:
     error_messages:
       mess_error: "Biểu mẫu chứa "
@@ -87,3 +94,6 @@ vi:
         too_long: "quá dài"
         too_short: "quá ngắn"
         confirmation: "không khớp với %{attribute}"
+  will_paginate:
+    previous_label: "&#8592; Trang trước"
+    next_label: "Trang kế &#8594;"

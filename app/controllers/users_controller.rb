@@ -1,7 +1,12 @@
 class UsersController < ApplicationController
   before_action :load_user, only: :show
-  before_action :logged_in_user, only: [:edit, :update]
+  before_action :logged_in_user, only: [:index, :edit, :update, :destroy]
   before_action :correct_user, only: [:edit, :update]
+  before_action :admin_user, only: :destroy
+
+  def index
+    @users = User.paginate page: params[:page], per_page: Settings.per_page
+  end
 
   def show
     return if @user
@@ -38,6 +43,15 @@ class UsersController < ApplicationController
     end
   end
 
+  def destroy
+    load_user.destroy
+    flash[:success] = t "delete"
+    redirect_to users_url
+  rescue StandardError
+    flash[:danger] = t "del_fail"
+    redirect_to users_url
+  end
+
   private
 
   def user_params
@@ -65,5 +79,9 @@ class UsersController < ApplicationController
       flash[:danger] = t "notfound"
       redirect_to root_url
     end
+  end
+
+  def admin_user
+    redirect_to root_url unless current_user.admin?
   end
 end
