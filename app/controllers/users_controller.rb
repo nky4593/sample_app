@@ -5,10 +5,12 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def index
-    @users = User.paginate page: params[:page], per_page: Settings.per_page
+    @users = User.page(params[:page]).per Settings.per_page
   end
 
   def show
+    @microposts = @user.microposts.order_posts.page(params[:page]).
+      per Settings.per_page
     return if @user
 
     flash[:danger] = t "notfound"

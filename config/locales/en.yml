@@ -23,6 +23,12 @@ en:
   plslogin: "Please log in!"
   delete: "User deleted"
   del_fail: "Cannot delete this user"
+  micropost_create: "Micropost created!"
+  micropost_fail: "Create micropost failed!"
+  micropost_delete: "Micropost deleted!"
+  micropost_delfail: "Delete micropost failed!"
+  errors_pic: "should be less than 5Mb"
+  alert_size: "Maximum file size is 5MB. Please choose a smaller file."
   static_pages:
     home:
       title: "Home"
@@ -31,6 +37,7 @@ en:
       phome2: "sample application."
       ahome1: "Ruby on Rails Tutorial"
       bhome1: "Sign up now!"
+      micropost_feed: "Micropost Feed"
     help:
       he: "Help"
       ph1: "Get help on the Ruby on Rails Tutorial at the"
@@ -75,10 +82,24 @@ en:
     user:
       del: "Delete"
       sure: "You sure?"
+    show:
+      microposts: "Microposts"
   shared:
     error_messages:
       mess_error: "The form contains "
       errors: "errors"
+    micropost_form:
+      compose: "Compose new micropost ..."
+      post: "Post"
+    user_info:
+      view_profile: "View my profile"
+      post_count: "microposts"
+  microposts:
+    micropost:
+      del_post: "Delete"
+      sure_post: "You sure?"
+      posted: "Posted"
+      ago: "ago."
   activerecord:
     attributes:
       user:
@@ -94,6 +115,24 @@ en:
         too_long: "is too long"
         too_short: "is too short"
         confirmation: "doesn't match %{attribute}"
-  will_paginate:
-    previous_label: "&#8592; Previous"
-    next_label: "Next &#8594;"
+  views:
+    pagination:
+      first: "&laquo; First"
+      last: "Last &raquo;"
+      previous: "&lsaquo; Previous"
+      next: "Next &rsaquo;"
+      truncate: "&hellip;"
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: "about 1 hour"
+        other: "about %{count} hours"
+      less_than_x_minutes:
+        one: "less than a minute"
+        other: "less than %{count} minutes"
+      x_minutes:
+          one: "1 minute"
+          other: "%{count} minutes"
+      x_days:
+          one: 1 day
+          other: "%{count} days"
