@@ -29,6 +29,8 @@ vi:
   micropost_delfail: "Xóa bài viết thất bại!"
   errors_pic: "nên chọn file dung lượng nhỏ hơn 5Mb"
   alert_size: "Kích thước tệp tối đa là 5MB. Hãy chọn tệp dung lượng nhỏ hơn."
+  following: "Đang theo dõi"
+  followers: "Người theo dõi"
   static_pages:
     home:
       title: "Trang chủ"
@@ -84,6 +86,13 @@ vi:
       sure: "Bạn chắc chứ?"
     show:
       microposts: "Bài đăng"
+    show_follow:
+      microposts: "Bài đăng:"
+      view_profile: "Xem hồ sơ của tôi"
+    follow:
+      btn_follow: "Theo dõi"
+    unfollow:
+      btn_unfollow: "Bỏ theo dõi"
   shared:
     error_messages:
       mess_error: "Biểu mẫu chứa "
@@ -94,6 +103,9 @@ vi:
     user_info:
       view_profile: "Xem hồ sơ của tôi"
       post_count: "bài đăng"
+    stats:
+      following: "đang theo dõi"
+      followers: "người theo dõi"
   microposts:
     micropost:
       del_post: "Xóa"

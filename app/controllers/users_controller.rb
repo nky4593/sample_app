@@ -9,8 +9,8 @@ class UsersController < ApplicationController
   end
 
   def show
-    @microposts = @user.microposts.order_posts.page(params[:page]).
-      per Settings.per_page
+    @microposts = @user.microposts.order_posts.page(params[:page])
+                       .per Settings.per_page
     return if @user
 
     flash[:danger] = t "notfound"
