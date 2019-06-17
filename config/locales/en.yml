@@ -36,6 +36,12 @@ en:
   activate_fail: "Invalid activation link"
   mess_active: "Account not activated. Check your email for the activation link."
   acc_activation: "Account Activation"
+  password_reset: "Email sent with password reset instructions"
+  email_not_found: "Email address not found"
+  pass_empty: "can't be empty"
+  pass_has_been_reset: "Password has been reset."
+  pass_expire: "Password reset has expired."
+  pass_reset: "Password reset"
   static_pages:
     home:
       title: "Home"
@@ -75,6 +81,7 @@ en:
       email: "Email"
       password: "Password"
       remember: "Remember me on this computer"
+      forgot_pass: "(Forgot password)"
   users:
     new:
       signup: "Sign Up"
@@ -123,6 +130,20 @@ en:
       hi: "Hi"
       welcome_mail: "Welcome to the Sample App! Click on the link below to activate your account:"
       link_active: "Activate"
+    password_reset:
+      title_reset: "Password reset"
+      p1_reset: "To reset your password click the link below:"
+      p2_reset: "This link will expire in two hours."
+      p3_reset: If you did not request your password to be reset, please ignore
+        this email and your password will stay as it is.
+      link_reset: "Reset password"
+  password_resets:
+    edit:
+      reset_password: "Reset password"
+      btn_update_password: "Update password"
+    new:
+      forgot_password: "Forgot password"
+      btn_submit: "Submit"
   activerecord:
     attributes:
       user:
