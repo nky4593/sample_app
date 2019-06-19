@@ -31,6 +31,11 @@ en:
   alert_size: "Maximum file size is 5MB. Please choose a smaller file."
   following: "Following"
   followers: "Followers"
+  account_active: "Please check your email to activate your account."
+  activated: "Account Activated!"
+  activate_fail: "Invalid activation link"
+  mess_active: "Account not activated. Check your email for the activation link."
+  acc_activation: "Account Activation"
   static_pages:
     home:
       title: "Home"
@@ -112,6 +117,12 @@ en:
       sure_post: "You sure?"
       posted: "Posted"
       ago: "ago."
+  user_mailer:
+    account_activation:
+      title_mail: "Sample App"
+      hi: "Hi"
+      welcome_mail: "Welcome to the Sample App! Click on the link below to activate your account:"
+      link_active: "Activate"
   activerecord:
     attributes:
       user:

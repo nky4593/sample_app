@@ -35,6 +35,7 @@ gem "jquery-rails"
 gem "bootstrap-kaminari-views"
 gem "carrierwave", "1.2.2"
 gem "faker", "1.7.3"
+gem "figaro"
 gem "kaminari"
 gem "mini_magick", "4.7.0"
 gem "rubocop", "~> 0.54.0", require: false
