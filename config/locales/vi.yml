@@ -36,6 +36,12 @@ vi:
   activate_fail: "Liên kết kích hoạt không hợp lệ"
   mess_active: "Tài khoản chưa được kích hoạt. Kiểm tra email để kích hoạt tài khoản."
   acc_activation: "Kích hoạt tài khoản"
+  password_reset: "Đã gửi email hướng dẫn đặt lại mật khẩu"
+  email_not_found: "Không tìm thấy địa chỉ email"
+  pass_empty: "không thể để rỗng"
+  pass_has_been_reset: "Mật khẩu đã được đặt lại."
+  pass_expire: "Đã hết hạn đặt lại mật khẩu."
+  pass_reset: "Đặt lại mật khẩu"
   static_pages:
     home:
       title: "Trang chủ"
@@ -75,6 +81,7 @@ vi:
       email: "Email"
       password: "Mật khẩu"
       remember: "Nhớ tôi trên máy tính này"
+      forgot_pass: "(Quên mật khẩu)"
   users:
     new:
       signup: "Đăng Ký"
@@ -123,6 +130,20 @@ vi:
       hi: "Ch"
       welcome_mail: "Chào mừng đến với ứng dụng mẫu! Click vào đường dẫn bên dưới để kích hoạt tài khoản của bạn:"
       link_active: "Kích hoạt"
+    password_reset:
+      title_reset: "Đặt lại mật khẩu"
+      p1_reset: "Để đặt lại mật khẩu hãy click vào liên kết bên dưới:"
+      p2_reset: "Liên kết này sẽ hết hạn trong 2 giờ."
+      p3_reset: Nếu bạn không gửi yêu cầu đặt lại mật khẩu, hãy bỏ qua email này
+        và mật khẩu của bạn sẽ được giữ nguyên.
+      link_reset: "Đặt lại mật khẩu"
+  password_resets:
+    edit:
+      reset_password: "Đặt lại mật khẩu"
+      btn_update_password: "Cập nhật mật khẩu"
+    new:
+      forgot_password: "Quên mật khẩu"
+      btn_submit: "Xác nhận"
   activerecord:
     attributes:
       user:
