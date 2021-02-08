@@ -33,7 +33,7 @@ gem "config"
 gem "jquery-rails"
 
 gem "bootstrap-kaminari-views"
-gem "carrierwave", "1.2.2"
+gem "carrierwave", "1.3.2"
 gem "faker", "1.7.3"
 gem "figaro"
 gem "kaminari"
